@@ -26,7 +26,7 @@ def health():
 @app.route("/about")
 def about():
     logger.info("about page accessed")
-    return render_template("about.html")
+    return render_template("aboutus.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
